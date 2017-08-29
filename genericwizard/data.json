@@ -1,0 +1,32 @@
+ [
+  {
+  "title": "What is your meal preference?",
+  "options": [
+              {
+              "category": "Veg",
+              "items": [
+                        "Butter Paneer",
+                        "Palak Paneer",
+                        "Kaju Badam Milk"
+                        ]
+              },
+              {
+              "category": "Non Veg"
+              }
+              ],
+  "selection": null
+  },
+  {
+  "title": "What is your favorite music gnre?",
+  "options": [
+              "Jazz",
+              "Blues",
+              "Pop",
+              "Rap",
+              "Hard Metal",
+              "Techno",
+              "Rock"
+              ],
+  "selection": null
+  }
+  ]
