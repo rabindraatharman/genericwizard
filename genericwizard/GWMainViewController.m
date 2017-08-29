@@ -55,11 +55,8 @@ static NSString *QueryCellID = @"QueryCellID";
 
 - (void) displayCategoryView:(NSDictionary*)query {
     
-    if(!self.category) {
-        self.category = [self.storyboard instantiateViewControllerWithIdentifier:@"GWCategoryViewController"];
-        self.category.delegate = self;
-    }
-
+    self.category = [self.storyboard instantiateViewControllerWithIdentifier:@"GWCategoryViewController"];
+    self.category.delegate = self;
     self.category.currentQuery = query;
     [self setModalPresentationStyle:UIModalPresentationFullScreen];
     [self presentViewController:self.category animated:YES completion:nil];
@@ -67,10 +64,8 @@ static NSString *QueryCellID = @"QueryCellID";
 
 - (void) displayOptionView:(NSDictionary*)query {
     
-    if(!self.options) {
-        self.options = [self.storyboard instantiateViewControllerWithIdentifier:@"GWOptionsViewController"];
-        self.options.delegate = self;
-    }
+    self.options = [self.storyboard instantiateViewControllerWithIdentifier:@"GWOptionsViewController"];
+    self.options.delegate = self;
     
     self.options.queryTitle = [query objectForKey:@"title"];
     self.options.itemList = [query objectForKey:@"options"];

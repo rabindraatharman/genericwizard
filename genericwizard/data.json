@@ -11,7 +11,44 @@
                         ]
               },
               {
-              "category": "Non Veg"
+              "category": "Non Veg",
+              "items": [
+                        "Chicken Curry",
+                        "Egg Benedict",
+                        "Red Meat",
+                        "Fish Korma",
+                        "Chicken Lolipop",
+                        "Meat Cocktail"
+                        ]
+              }
+              ],
+  "selection": null
+  },
+  {
+  "title": "What is you favirite color?",
+  "options": [
+              {
+              "category": "Hot Colors",
+              "items": [
+                        "Bright Red",
+                        "Bright Green"
+                        ]
+              },
+              {
+              "category": "Mild Colors",
+              "items": [
+                        "Evening Blue",
+                        "Midnight Moon",
+                        "Morning Sun",
+                        "Sun Set"
+                        ]
+              },
+              {
+              "category": "Grey Colors",
+              "items": [
+                        "Sad Night",
+                        "Lazy Morning"
+                        ]
               }
               ],
   "selection": null
